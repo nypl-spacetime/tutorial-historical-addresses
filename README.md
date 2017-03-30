@@ -293,7 +293,7 @@ Our search tool consists of three files:
   - [`js/historical-addresses.js`](js/historical-addresses.js)
   - [`css/style.css`](css/style.css)
 
-`index.html` is the page that opens when you point your browser to [bertspaan.nl/tutorial-historical-addresses](http://bertspaan.nl/tutorial-historical-addresses/).
+`index.html` is the page that opens when you point your browser to [spacetime.nypl.org/tutorial-historical-addresses](http://spacetime.nypl.org/tutorial-historical-addresses/).
 
 Below, I will explain the most important parts of [`js/historical-addresses.js`](js/historical-addresses.js):
 
@@ -382,6 +382,6 @@ map.on('moveend', function () {
 })
 ```
 
-__Final result:__ [bertspaan.nl/tutorial-historical-addresses](http://bertspaan.nl/tutorial-historical-addresses)
+__Final result:__ [spacetime.nypl.org/tutorial-historical-addresses](http://spacetime.nypl.org/tutorial-historical-addresses)
 
 [![Screenshot of final result](images/screenshot.png)](http://bertspaan.nl/tutorial-historical-addresses)
