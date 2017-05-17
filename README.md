@@ -2,7 +2,9 @@
 
 This is a tutorial made for the second meetup of [NYC Space/Time Directory](http://spacetime.nypl.org)'s [meetup series](https://www.meetup.com/historical-data-and-maps-at-nypl/): [NYC Maps, Buildings, and Addresses: Using and combining historic data](https://www.meetup.com/historical-data-and-maps-at-nypl/events/236221289/) on February 1st, 2017.
 
-in this tutorial, we will combine two different crowdsourced datasets from the NYC Space/Time Directory to create a web interface makes historical addresses searchable and visible.
+In this tutorial, we will combine three different crowdsourced datasets from the NYC Space/Time Directory to create a web interface makes historical addresses searchable and visible.
+
+__See the final result of this tutorial here: [spacetime.nypl.org/tutorial-historical-addresses/](http://spacetime.nypl.org/tutorial-historical-addresses/).__
 
 Datasets:
 
@@ -33,7 +35,7 @@ __Examples__ from a [1854 New York City Directory](https://digitalcollections.ny
 
 ![Scan of 1854 New York City Directory showing William E. Kelly's address](images/city-directory-example-1.jpg)
 
-This address on 1875 map:
+This address on an 1875 map:
 
 ![Part of 1875 map showing 374 Bowery in Manhattan](images/374-bowery.jpg)
 
@@ -41,7 +43,7 @@ This address on 1875 map:
 
 ![Scan of 1854 New York City Directory showing George Palmer's address](images/city-directory-example-2.jpg)
 
-This address on 1855 map:
+This address on an 1855 map:
 
 ![Part of 1855 map showing 84½ Fulton Street in Brooklyn](images/84½-fulton.jpg)
 
@@ -293,7 +295,7 @@ Our search tool consists of three files:
   - [`js/historical-addresses.js`](js/historical-addresses.js)
   - [`css/style.css`](css/style.css)
 
-`index.html` is the page that opens when you point your browser to [bertspaan.nl/tutorial-historical-addresses](http://bertspaan.nl/tutorial-historical-addresses/).
+`index.html` is the page that opens when you point your browser to [spacetime.nypl.org/tutorial-historical-addresses](http://spacetime.nypl.org/tutorial-historical-addresses/).
 
 Below, I will explain the most important parts of [`js/historical-addresses.js`](js/historical-addresses.js):
 
@@ -382,6 +384,6 @@ map.on('moveend', function () {
 })
 ```
 
-__Final result:__ [bertspaan.nl/tutorial-historical-addresses](http://bertspaan.nl/tutorial-historical-addresses)
+__Final result:__ [spacetime.nypl.org/tutorial-historical-addresses](http://spacetime.nypl.org/tutorial-historical-addresses)
 
-[![Screenshot of final result](images/screenshot.png)](http://bertspaan.nl/tutorial-historical-addresses)
+[![Screenshot of final result](images/screenshot.png)](http://spacetime.nypl.org/tutorial-historical-addresses)
