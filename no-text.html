@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>NYC Historical Addresses - Tutorial using NYC Space/Time Directory data</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/lunr.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/leaflet.css" />
+  </head>
+  <body>
+    <header>
+      <h1>NYC Historical Addresses</h1>
+    </header>
+    <article>
+      <input id="search" tabindex="1" placeholder="Search historical addresses in Building Inspector data" autofocus />
+      <div id="results">
+        <ol id="list" tabindex="0">
+        </ol>
+        <div id="map-container" class="hidden">
+          <div id="map">
+          </div>
+          <div id="slider-container">
+            <label>
+              <span>Opacity:</span>
+              <input id="slider" type="range" min="0" max="100" step="1" value="100" />
+            </label>
+          </div>
+        </div>
+      </div>
+    </article>
+    <script src="js/historical-addresses.js"></script>
+  </body>
+</html>
+
